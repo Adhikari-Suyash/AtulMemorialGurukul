@@ -29,17 +29,25 @@ body, html {
 </style>
 <body>
 
+
+<script>
+         setTimeout(function(){
+            window.location.href = "index.html";
+         }, 5000);
+      </script>
+
+
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
     <a href="index.html" class="w3-bar-item w3-button w3-wide"><img class="logo" src="logo.png" style="width:30px; height:30px"><strong>&nbsp;Atul Memorial Music Gurukul</strong></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="index.html" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
-      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="index.html" class="w3-bar-item w3-button">About</a>
+      <a href="gallery.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Gallery</a>
+      <a href="sponsor.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Sponsor</a>
+      <a href="celebrate.html" class="w3-bar-item w3-button"><i class="fa fa-child"></i> Celebrate with Us</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -52,11 +60,11 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="gallery.html" onclick="w3_close()" class="w3-bar-item w3-button">Gallery</a>
+  <a href="sponsor.html" onclick="w3_close()" class="w3-bar-item w3-button">Sponsor</a>
+  <a href="celebrate.html" onclick="w3_close()" class="w3-bar-item w3-button">Celebrate with Us</a>
+  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
 </nav>
 
 <div class="w3-container" style="padding:128px 16px" id="about">
